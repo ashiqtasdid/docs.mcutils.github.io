@@ -11,7 +11,7 @@ Discover real-time information about a Minecraft Bedrock server using the `/bedr
 In Minecraft Bedrock, you can gather comprehensive information about a server using the following command:
 
 ```bash
-/bedrock [server-ip] [port]
+/bedrock [server-ip]
 ```
 
 ## Information Provided
@@ -19,6 +19,7 @@ In Minecraft Bedrock, you can gather comprehensive information about a server us
 The `/bedrock` command provides you with the following real-time server information:
 
 - **Online Players:** The current number of players online on the server.
+- **Numeric IP:** Numric IP of the server.
 - **Player Cap:** The maximum number of players that the server can accommodate.
 - **Online Mode Status:** Indicates whether the server is operating in online mode, which requires players to have registered accounts.
 - **Mods:** Details about any installed mods or add-ons on the server.
@@ -27,7 +28,9 @@ The `/bedrock` command provides you with the following real-time server informat
 
 ## Example
 
-To illustrate, let's say you want to retrieve real-time information about a server with the IP address "123.45.67.89" and port "19132." You would employ the following command:
+To illustrate, let's say you want to retrieve real-time information about a server with the IP address "123.45.67.89" or "play.servername.com" You would employ the following command:
 
 ```bash
-/bedrock xxx.xxx.xxx.xxx 19132
+/bedrock 123.456.78.90 || play.servername.com
+```
+```
