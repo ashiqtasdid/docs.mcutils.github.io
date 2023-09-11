@@ -12,4 +12,4 @@
 
 **This repository is managed by [Spectex Inc.](https://spectex.xyz)**
 
-**Last Updated: Aug 12, 2023**
+**Last Updated: Sep 11, 2023**
