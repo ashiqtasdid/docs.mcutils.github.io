@@ -49,6 +49,8 @@ jobs:
           static_site_generator: next
       - name: Install dependencies
         run: pnpm install
+      - name: Building
+        run: pnpm run build
       - name: Build and Static HTML export with Next.js
         run: pnpm run export
       - name: Upload artifact
