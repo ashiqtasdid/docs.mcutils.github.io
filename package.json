@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "export": "next export",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next export",
+    "lint": "next lint"
   },
   "dependencies": {
     "@types/node": "20.4.10",
