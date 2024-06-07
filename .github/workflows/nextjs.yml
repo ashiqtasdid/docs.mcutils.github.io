@@ -35,8 +35,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v4
         with:
           # Automatically inject basePath in your Next.js configuration file and disable
           # server side image optimization (https://nextjs.org/docs/api-reference/next/image#unoptimized).
@@ -45,8 +49,10 @@ jobs:
           static_site_generator: next
       - name: Install dependencies
         run: pnpm install
-      - name: Build with Next.js
-        run: pnpm next build
+      - name: Building
+        run: pnpm run build
+      - name: Build and Static HTML export with Next.js
+        run: pnpm run export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
