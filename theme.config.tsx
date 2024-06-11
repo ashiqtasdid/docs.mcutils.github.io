@@ -10,11 +10,11 @@ export default {
         title: "Docs - Minecraft Utilities",
         description: "Official Documentation for Minecraft Utilities Discord Bot.",
         type: "website",
-        url: "https://mcutils.spectex.xyz",
+        url: "https://minecraftutilities.github.io",
         site_name: "Minecraft Utilities",
         images: [
           {
-            url: "https://i.ibb.co/JpQ18bm/image.png",
+            url: "https://minecraftutilities.github.io/opengraph-image.png?a315f3e467acaec4",
             width: 800,
             height: 600,
             alt: "Minecraft Utilities",
@@ -31,11 +31,11 @@ export default {
 
   logo: <span>Minecraft Utilities</span>,
   project: {
-    link: "https://github.com/ashiqtasdid/documentation-minecraft-utilities",
+    link: "https://github.com/minecraftutilities/documentation",
   },
-  docsRepositoryBase: "https://github.com/ashiqtasdid/documentation-minecraft-utilities",
+  docsRepositoryBase: "https://github.com/minecraftutilities/documentation",
   footer: {
-    text: "2023 - Spectex Inc.",
+    text: "2024 - Minecraft Utilities",
   },
   head: (
     <>
@@ -55,13 +55,13 @@ export default {
 
       <meta property="og:title" content="Docs - Minecraft Utilities" />
       <meta property="og:site_name" content="Minecraft Utilities" />
-      <meta property="og:url" content="https://mcutils.spectex.xyz" />
+      <meta property="og:url" content="https://minecraftutilities.github.io" />
       <meta
         property="og:description"
         content="The Official Documentation of the Discord Bot called Minecraft Utilities. A feature-rich bot for Minecraft tools & utilities. Easily, get real-time information about a Minecraft Server, Player Skin, UUID & much more!"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://i.ibb.co/JpQ18bm/image.png" />
+      <meta property="og:image" content="https://minecraftutilities.github.io/opengraph-image.png?a315f3e467acaec4" />
     </>
   ),
 };
